@@ -1,5 +1,5 @@
 ﻿# lovefish
-<a href="https://htmlpreview.github.io/?https://github.com/jakeyChen1994/lovefish/blob/master/lovefish.html">项目预览</a>
+<a href="https://htmlpreview.github.io/?https://github.com/jakeyChen1994/lovefish/blob/master/lovefish.html" target="_blank">项目预览</a>
 convas小游戏
 		<h3>游戏说明</h3>
 		<p>大鱼每吃到一颗黄色果实加一分，吃到蓝色果实不加分</p>
