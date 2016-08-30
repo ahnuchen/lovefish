@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>爱心小鱼</title>
+	<style type="text/css">
+		body{
+			padding-top: 10px;
+		}
+		.all_bg{
+			width: 800px;
+			height: 600px;
+			margin: 0 auto;
+		}
+		#allcanvas{
+			position: relative;
+			width: 800px;
+			height: 600px;
+			margin: 0;
+		}
+		#canvas1{
+			position: absolute;
+			bottom: 0;
+			left:0;
+			z-index: 1;
+		}
+		#canvas2{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 0;
+		}
+		.introduce{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="all_bg">
+		<div id="allcanvas">
+			<canvas id="canvas1" width="800" height="600"> </canvas>
+			<canvas id="canvas2" width="800" height="600"></canvas>
+		</div>
+	</div>
+	<div class="introduce">
+		<h3>游戏说明</h3>
+		<p>大鱼每吃到一颗黄色果实加一分，吃到蓝色果实不加分</p>
+		<p>碰到小鱼的时候会把所有的果实喂给小鱼</p>
+		<p>每颗黄色果实会让小鱼生命值加100，蓝色果实小鱼生命值<b>减少</b>500</p>
+		<p>小鱼生命值低于0或者一段时间内没有吃到果实，游戏结束</p>
+		<p>最终游戏得分为大鱼吃到的黄色果实数量</p>
+		<p>游戏结束后可刷新页面重新开始游戏</p>
+		<p>暂不支持手机端浏览器</p>
+	</div>
+	<script type="text/javascript" src="js/main.js" ></script>
+	<script type="text/javascript" src="js/commonFunctions.js" ></script>
+	<script type="text/javascript" src="js/background.js" ></script>
+	<script type="text/javascript" src="js/ane.js" ></script>
+	<script src="js/fruit.js"></script>
+	<script src="js/mom.js"></script>
+	<script src="js/collision.js"></script>
+	<script src="js/baby.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/dust.js"></script>
+	<script src="js/eat.js"></script>
+
+
+</body>
+</html>
