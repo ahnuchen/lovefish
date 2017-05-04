@@ -38,7 +38,7 @@ dataObj.prototype.draw = function  () {
 	 
 }
 dataObj.prototype.addScore = function () {
-	 this.hp = this.hp + this.fruitNum *100 -this.blueNum*500;
+	 this.hp = this.hp + this.fruitNum *100 -this.blueNum*100;
 	 if(this.hp < 0){
 	 	data.gameOver = true;
 	 }
